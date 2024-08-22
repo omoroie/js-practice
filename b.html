@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document.write() 예시</title>
+</head>
+<body>
+    <p>Original Content</p>
+
+    <script>
+        // 페이지가 로드된 후 document.write() 호출 예문, 결과값은 title 태그나 p태그의 문단이 모두 덮어 씌워진 채로 document.write() 함수 문이 출력되게 된다
+        window.onload = function() {
+            document.write("<p>New Content</p>");
+        };
+    </script>
+</body>
+</html>
