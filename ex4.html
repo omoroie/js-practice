@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+
+    </head>
+    <body>
+
+        <h1>Loop & Array</h1>
+        <script>
+            var hello = ['a','b','c','d'];
+            console.log(hello.length);  // 배열 갯수 확인
+            
+        </script>
+
+        <h2>helloworld</h2>
+        <script>
+            hello.push('e');
+            var i = 0;
+            console.log(hello.length);   // push문 확인
+            while(i < hello.length){        // href + li 태그 반복문
+                document.write('<li><a href="http://hyper.com/'+hello[i]+'">'+hello[i]+'</a></li>');     // 문법 뭐지 이거? 이해가 되면서 안되네 ㅋㅋㅋㅋㅋ
+                i++;
+            }
+
+        </script>
+    </body>
+</html>

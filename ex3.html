@@ -26,5 +26,19 @@
 
         <p>abcdefghijklmnopqrstuvwxwz</p>
 
+        <input id="night_day" type="button" value="night" onclick="
+
+        if(this.value === 'day'){
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';
+        this.value='night';
+        }
+        else{
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.color = 'white';
+        this.value='day';
+        }">
+
+
     </body>
     </html>
